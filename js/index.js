@@ -2,7 +2,7 @@ let result = 5+5+'5';
 console.log(result);
 console.log(typeof result);
 
-let email = "daniltrotsko9@gmail.com";
+let email = prompt("Введіть свій email:");
 let check_email_is = email.includes("@");
 if (check_email_is === false) {
     console.log("This is not an email.");
