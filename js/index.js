@@ -3,6 +3,7 @@ console.log(result);
 console.log(typeof result);
 
 let email = prompt("Введіть свій email:");
+console.log(email);
 let check_email_is = email.includes("@");
 if (check_email_is === false) {
     console.log("This is not an email.");
