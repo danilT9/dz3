@@ -1,23 +1,23 @@
-var result = 5+5+'5';
+let result = 5+5+'5';
 console.log(result);
 console.log(typeof result);
 
-var email = "daniltrotsko9@gmail.com";
-var check_email_is = email.includes("@");
+let email = "daniltrotsko9@gmail.com";
+let check_email_is = email.includes("@");
 if (check_email_is === false) {
     console.log("This is not an email.");
 } else {
-    var email_lenght = email.length;
+    let email_lenght = email.length;
     console.log(check_email_is);
     console.log(email_lenght);
 }
 
-var one = "My";
-var two = "name";
-var three = "is";
-var fullName = `${one} ${two} ${three} Viktor.`;
+let one = "My";
+let two = "name";
+let three = "is";
+let fullName = `${one} ${two} ${three} Viktor.`;
 console.log(fullName);
 
-var userName = "qwerty12345";
-var payment = 150;
+let userName = "qwerty12345";
+let payment = 150;
 alert("Дякуємо, " + userName + "! До сплати " + payment + " гривень");
